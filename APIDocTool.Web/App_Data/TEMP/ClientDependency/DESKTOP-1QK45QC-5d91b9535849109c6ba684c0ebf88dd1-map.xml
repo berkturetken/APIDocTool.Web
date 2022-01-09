@@ -64,4 +64,25 @@
       <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
     </files>
   </item>
+  <item key="L2Nzcy9zdHlsZXMuY3NzOw" file="C:\Programming\VS-Projects\APIDocTool.Web\APIDocTool.Web\App_Data\TEMP\ClientDependency\1_cf5638be682c4610a44e83c43cd14d77.cdC" compression="gzip" version="1">
+    <files>
+      <file name="/css/styles.css" />
+    </files>
+  </item>
+  <item key="L2pzL3NjcmlwdHMuanM7" file="C:\Programming\VS-Projects\APIDocTool.Web\APIDocTool.Web\App_Data\TEMP\ClientDependency\1_50c11d8ffd87483881ddcf83c7893ef7.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/js/scripts.js" />
+    </files>
+  </item>
+  <item key="L2Fzc2V0cy9kZW1vL2NoYXJ0LWFyZWEtZGVtby5qczsvYXNzZXRzL2RlbW8vY2hhcnQtYmFyLWRlbW8uanM7" file="C:\Programming\VS-Projects\APIDocTool.Web\APIDocTool.Web\App_Data\TEMP\ClientDependency\1_192c14836db8469d89382c98be301ec9.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/assets/demo/chart-area-demo.js" />
+      <file name="/assets/demo/chart-bar-demo.js" />
+    </files>
+  </item>
+  <item key="L2pzL2RhdGF0YWJsZXMtc2ltcGxlLWRlbW8uanM7" file="C:\Programming\VS-Projects\APIDocTool.Web\APIDocTool.Web\App_Data\TEMP\ClientDependency\1_f6a8581918524c65a8ed612e28ed1bab.cdJ" compression="gzip" version="1">
+    <files>
+      <file name="/js/datatables-simple-demo.js" />
+    </files>
+  </item>
 </map>
