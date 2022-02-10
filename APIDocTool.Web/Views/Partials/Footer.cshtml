@@ -7,7 +7,7 @@
 }
 
 <!-- Footer -->
-<footer class="py-4 bg-light mt-auto">
+<footer class="py-4 bg-black mt-auto">
     <div class="container-fluid px-4">
         <div class="d-flex align-items-center justify-content-between small">
             <div class="text-muted">Copyright &copy; @Umbraco.GetDictionaryValue("Footer.CopyrightName")</div>
@@ -19,8 +19,9 @@
                     {
                         var link = item.Value<Link>("link");
                         var iconClass = item.Value<string>("iconClass");
-                        <li style="list-style: none; margin: 0 10px 0 0; font-size: 24px;">
-                            <a href="@link.Url" target="@link.Target" class="@iconClass">
+                        <li style="list-style: none; margin: 10px 20px 0 0; font-size: 24px;">
+                            <a href="@link.Url" target="@link.Target">
+                                <i class="@iconClass"></i>
                             </a>
                         </li>
                     }
