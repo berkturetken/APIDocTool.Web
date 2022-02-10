@@ -1,10 +1,32 @@
-﻿@inherits UmbracoViewPage
+﻿@using Umbraco.Web.Models
+@inherits UmbracoViewPage
+
+@{ 
+    var homePage = Model.AncestorOrSelf<Home>();
+    var socialLinks = homePage.Value<IEnumerable<IPublishedElement>>("socialLinks");
+}
 
 <!-- Footer -->
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid px-4">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Copyright &copy; Berk Türetken 2022</div>
+            <div class="text-muted">Copyright &copy; @Umbraco.GetDictionaryValue("Footer.CopyrightName")</div>
+            <div>
+                @if (socialLinks != null && socialLinks.Any())
+                {
+                <ul style="display: flex">
+                    @foreach (var item in socialLinks)
+                    {
+                        var link = item.Value<Link>("link");
+                        var iconClass = item.Value<string>("iconClass");
+                        <li style="list-style: none; margin: 0 10px 0 0; font-size: 24px;">
+                            <a href="@link.Url" target="@link.Target" class="@iconClass">
+                            </a>
+                        </li>
+                    }
+                </ul>
+                }
+            </div>
             <div>
                 <a href="#">Privacy Policy</a>
                 &middot;
