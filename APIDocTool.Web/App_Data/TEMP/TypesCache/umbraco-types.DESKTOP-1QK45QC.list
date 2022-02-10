@@ -608,6 +608,35 @@ Umbraco.Web.HealthCheck.NotificationMethods.IHealthCheckNotificationMethod
 
 Umbraco.Web.HealthCheck.NotificationMethods.EmailNotificationMethod, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 
+Umbraco.Core.Models.PublishedContent.PublishedElementModel
+
+Umbraco.Web.PublishedModels.FAqitem, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.IconLinkItem, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
+Umbraco.Core.Models.PublishedContent.PublishedContentModel
+
+Umbraco.Web.PublishedModels.BasicControl, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.ContentControls, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Error, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.File, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Folder, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.FooterControls, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Heading, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Home, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Image, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.MainContent, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.MainImageControls, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Member, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.Search, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.SEocontrol, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.SubContent, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.UmbracoMediaArticle, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.UmbracoMediaAudio, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.UmbracoMediaVectorGraphics, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.UmbracoMediaVideo, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.VisibilityControls, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+Umbraco.Web.PublishedModels.XMlsitemap, APIDocTool.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+
 Umbraco.Core.Deploy.IServiceConnector
 
 

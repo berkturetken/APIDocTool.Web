@@ -323,6 +323,29 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\Models\BasicControl.generated.cs" />
+    <Compile Include="App_Data\Models\ContentControls.generated.cs" />
+    <Compile Include="App_Data\Models\Error.generated.cs" />
+    <Compile Include="App_Data\Models\FAqitem.generated.cs" />
+    <Compile Include="App_Data\Models\File.generated.cs" />
+    <Compile Include="App_Data\Models\Folder.generated.cs" />
+    <Compile Include="App_Data\Models\FooterControls.generated.cs" />
+    <Compile Include="App_Data\Models\Heading.generated.cs" />
+    <Compile Include="App_Data\Models\Home.generated.cs" />
+    <Compile Include="App_Data\Models\IconLinkItem.generated.cs" />
+    <Compile Include="App_Data\Models\Image.generated.cs" />
+    <Compile Include="App_Data\Models\MainContent.generated.cs" />
+    <Compile Include="App_Data\Models\MainImageControls.generated.cs" />
+    <Compile Include="App_Data\Models\Member.generated.cs" />
+    <Compile Include="App_Data\Models\Search.generated.cs" />
+    <Compile Include="App_Data\Models\SEocontrol.generated.cs" />
+    <Compile Include="App_Data\Models\SubContent.generated.cs" />
+    <Compile Include="App_Data\Models\UmbracoMediaArticle.generated.cs" />
+    <Compile Include="App_Data\Models\UmbracoMediaAudio.generated.cs" />
+    <Compile Include="App_Data\Models\UmbracoMediaVectorGraphics.generated.cs" />
+    <Compile Include="App_Data\Models\UmbracoMediaVideo.generated.cs" />
+    <Compile Include="App_Data\Models\VisibilityControls.generated.cs" />
+    <Compile Include="App_Data\Models\XMlsitemap.generated.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
