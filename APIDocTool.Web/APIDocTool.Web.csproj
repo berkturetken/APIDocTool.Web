@@ -353,6 +353,10 @@
     <Content Include="Views\Partials\SideNavigation.cshtml" />
     <Content Include="Views\Partials\Footer.cshtml" />
     <Content Include="Views\Partials\TopNavigation.cshtml" />
+    <Content Include="Views\XMLSitemap.cshtml" />
+    <Content Include="Views\Error.cshtml" />
+    <Content Include="Views\SubContent.cshtml" />
+    <Content Include="Views\MainContent.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

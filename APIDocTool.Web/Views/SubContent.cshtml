@@ -1,0 +1,23 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Umbraco.Web.PublishedModels.SubContent>
+
+@{
+    Layout = "Master.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">@(!string.IsNullOrWhiteSpace(Model.Title) ? Model.Title : Model.Name)</h1>
+
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
+        
+        <div>
+            @if (!string.IsNullOrEmpty(Model.Text.ToString()))
+            {
+                <p>@Model.Text</p>
+            }
+        </div>
+    </div>
+</main>
