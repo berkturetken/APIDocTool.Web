@@ -52,42 +52,42 @@ namespace Umbraco.Web.PublishedModels
 		public virtual global::Newtonsoft.Json.Linq.JToken MainContent => global::Umbraco.Web.PublishedModels.ContentControls.GetMainContent(this);
 
 		///<summary>
-		/// Main Image: Choose the main image for this page
+		/// 📸 Main Image: Choose the main image for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("mainImage")]
 		public virtual global::Umbraco.Core.Models.MediaWithCrops MainImage => global::Umbraco.Web.PublishedModels.MainImageControls.GetMainImage(this);
 
 		///<summary>
-		/// Meta Description: Enter the meta description for this page
+		/// 🔍 Meta Description: Enter the meta description for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("metaDescription")]
 		public virtual string MetaDescription => global::Umbraco.Web.PublishedModels.SEocontrol.GetMetaDescription(this);
 
 		///<summary>
-		/// Meta Keywords: Enter the keywords for this page
+		/// 🔍 Meta Keywords: Enter the keywords for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("metaKeywords")]
 		public virtual global::System.Collections.Generic.IEnumerable<string> MetaKeywords => global::Umbraco.Web.PublishedModels.SEocontrol.GetMetaKeywords(this);
 
 		///<summary>
-		/// Meta Name: Enter the meta name for this page
+		/// 🔍 Meta Name: Enter the meta name for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("metaName")]
 		public virtual string MetaName => global::Umbraco.Web.PublishedModels.SEocontrol.GetMetaName(this);
 
 		///<summary>
-		/// Hide From XML Sitemap: Tick this if you want to hide this page from the XML Sitemap
+		/// 👀 Hide From XML Sitemap: Tick this if you want to hide this page from the XML Sitemap
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("hideFromXMLSitemap")]
 		public virtual bool HideFromXmlsitemap => global::Umbraco.Web.PublishedModels.VisibilityControls.GetHideFromXmlsitemap(this);
 
 		///<summary>
-		/// Umbraco Navi Hide: Tick this box if you want to hide this page from the navigation and from search results
+		/// 🐱‍👤 Umbraco Navi Hide: Tick this box if you want to hide this page from the navigation and from search results
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("umbracoNaviHide")]

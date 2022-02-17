@@ -23,11 +23,11 @@ namespace Umbraco.Web.PublishedModels
 	/// <summary>Basic Control</summary>
 	public partial interface IBasicControl : IPublishedContent
 	{
-		/// <summary>Text</summary>
+		/// <summary>2️⃣ Text</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		global::System.Web.IHtmlString Text { get; }
 
-		/// <summary>Title</summary>
+		/// <summary>1️⃣ Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		string Title { get; }
 	}
@@ -58,24 +58,24 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Text
+		/// 2️⃣ Text
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("text")]
 		public virtual global::System.Web.IHtmlString Text => GetText(this);
 
-		/// <summary>Static getter for Text</summary>
+		/// <summary>Static getter for 2️⃣ Text</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		public static global::System.Web.IHtmlString GetText(IBasicControl that) => that.Value<global::System.Web.IHtmlString>("text");
 
 		///<summary>
-		/// Title: Enter a title
+		/// 1️⃣ Title: Enter a title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("title")]
 		public virtual string Title => GetTitle(this);
 
-		/// <summary>Static getter for Title</summary>
+		/// <summary>Static getter for 1️⃣ Title</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		public static string GetTitle(IBasicControl that) => that.Value<string>("title");
 	}

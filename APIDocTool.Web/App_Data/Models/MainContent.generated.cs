@@ -45,14 +45,14 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Text
+		/// 2️⃣ Text
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("text")]
 		public virtual global::System.Web.IHtmlString Text => global::Umbraco.Web.PublishedModels.BasicControl.GetText(this);
 
 		///<summary>
-		/// Title: Enter a title
+		/// 1️⃣ Title: Enter a title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("title")]

@@ -45,14 +45,14 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Text
+		/// 2️⃣ Text
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("text")]
 		public virtual global::System.Web.IHtmlString Text => global::Umbraco.Web.PublishedModels.BasicControl.GetText(this);
 
 		///<summary>
-		/// Title: Enter a title
+		/// 1️⃣ Title: Enter a title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("title")]
@@ -66,35 +66,35 @@ namespace Umbraco.Web.PublishedModels
 		public virtual global::Newtonsoft.Json.Linq.JToken MainContent => global::Umbraco.Web.PublishedModels.ContentControls.GetMainContent(this);
 
 		///<summary>
-		/// Social Links: Enter the social links for the footer
+		/// 🔗 Social Links: Enter the social links for the footer
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("socialLinks")]
 		public virtual global::System.Collections.Generic.IEnumerable<global::Umbraco.Web.PublishedModels.IconLinkItem> SocialLinks => global::Umbraco.Web.PublishedModels.FooterControls.GetSocialLinks(this);
 
 		///<summary>
-		/// Main Image: Choose the main image for this page
+		/// 📸 Main Image: Choose the main image for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("mainImage")]
 		public virtual global::Umbraco.Core.Models.MediaWithCrops MainImage => global::Umbraco.Web.PublishedModels.MainImageControls.GetMainImage(this);
 
 		///<summary>
-		/// Meta Description: Enter the meta description for this page
+		/// 🔍 Meta Description: Enter the meta description for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("metaDescription")]
 		public virtual string MetaDescription => global::Umbraco.Web.PublishedModels.SEocontrol.GetMetaDescription(this);
 
 		///<summary>
-		/// Meta Keywords: Enter the keywords for this page
+		/// 🔍 Meta Keywords: Enter the keywords for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("metaKeywords")]
 		public virtual global::System.Collections.Generic.IEnumerable<string> MetaKeywords => global::Umbraco.Web.PublishedModels.SEocontrol.GetMetaKeywords(this);
 
 		///<summary>
-		/// Meta Name: Enter the meta name for this page
+		/// 🔍 Meta Name: Enter the meta name for this page
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("metaName")]

@@ -318,12 +318,14 @@
     <Content Include="config\Lang\sv-SE.user.xml" />
     <Content Include="config\Lang\zh-CN.user.xml" />
     <Content Include="config\logviewer.searches.config.js" />
+    <Content Include="css\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Data\Models\BasicControl.generated.cs" />
+    <Compile Include="App_Data\Models\CodeSnippetControls.generated.cs" />
     <Compile Include="App_Data\Models\ContentControls.generated.cs" />
     <Compile Include="App_Data\Models\Error.generated.cs" />
     <Compile Include="App_Data\Models\FAqitem.generated.cs" />

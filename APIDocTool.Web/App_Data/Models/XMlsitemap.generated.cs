@@ -45,14 +45,14 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Hide From XML Sitemap: Tick this if you want to hide this page from the XML Sitemap
+		/// 👀 Hide From XML Sitemap: Tick this if you want to hide this page from the XML Sitemap
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("hideFromXMLSitemap")]
 		public virtual bool HideFromXmlsitemap => global::Umbraco.Web.PublishedModels.VisibilityControls.GetHideFromXmlsitemap(this);
 
 		///<summary>
-		/// Umbraco Navi Hide: Tick this box if you want to hide this page from the navigation and from search results
+		/// 🐱‍👤 Umbraco Navi Hide: Tick this box if you want to hide this page from the navigation and from search results
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("umbracoNaviHide")]

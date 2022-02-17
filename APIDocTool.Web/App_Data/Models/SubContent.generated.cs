@@ -21,7 +21,7 @@ namespace Umbraco.Web.PublishedModels
 {
 	/// <summary>Sub Content</summary>
 	[PublishedModel("subContent")]
-	public partial class SubContent : PublishedContentModel, IBasicControl
+	public partial class SubContent : PublishedContentModel, IBasicControl, ICodeSnippetControls
 	{
 		// helpers
 #pragma warning disable 0109 // new is redundant
@@ -45,17 +45,24 @@ namespace Umbraco.Web.PublishedModels
 		// properties
 
 		///<summary>
-		/// Text
+		/// 2️⃣ Text
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("text")]
 		public virtual global::System.Web.IHtmlString Text => global::Umbraco.Web.PublishedModels.BasicControl.GetText(this);
 
 		///<summary>
-		/// Title: Enter a title
+		/// 1️⃣ Title: Enter a title
 		///</summary>
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
 		[ImplementPropertyType("title")]
 		public virtual string Title => global::Umbraco.Web.PublishedModels.BasicControl.GetTitle(this);
+
+		///<summary>
+		/// 👩‍💻 Code: Enter the code snippet that is going to run in the RunKit
+		///</summary>
+		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "8.17.1")]
+		[ImplementPropertyType("code")]
+		public virtual string Code => global::Umbraco.Web.PublishedModels.CodeSnippetControls.GetCode(this);
 	}
 }

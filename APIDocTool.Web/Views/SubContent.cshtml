@@ -5,6 +5,8 @@
 }
 
 <main>
+    <script src="https://embed.runkit.com" data-element-id="my-element"></script>
+
     <div class="container-fluid px-4">
         <h1 class="mt-4">@(!string.IsNullOrWhiteSpace(Model.Title) ? Model.Title : Model.Name)</h1>
 
@@ -12,12 +14,21 @@
         <ol class="breadcrumb mb-4">
             <li class="breadcrumb-item active">Dashboard</li>
         </ol>
-        
+
         <div>
-            @if (!string.IsNullOrEmpty(Model.Text.ToString()))
+            @if (!string.IsNullOrWhiteSpace(Model.Text.ToString()))
             {
                 <p>@Model.Text</p>
             }
         </div>
+
+        @if (!string.IsNullOrWhiteSpace(Model.Code))
+        {
+            <div style="margin-bottom: 2rem" id="my-element">
+                // Write your code here
+                @Model.Code
+            </div>
+        }
     </div>
 </main>
+
